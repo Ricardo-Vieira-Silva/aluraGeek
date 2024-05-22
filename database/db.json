@@ -1,0 +1,52 @@
+{
+  "produtos": [
+    {
+      "name": "Action Figures Bst AXN Aang",
+      "preco": "105",
+      "image": "https://i.ibb.co/VY6GzPH/Action-Figures-02.png",
+      "id": "1"
+    },
+    {
+      "name": "Avatar - The Last Airbender Final Battle Aang",
+      "preco": "210",
+      "image": "https://i.ibb.co/Z6Kc1XR/Avatar-The-Last-01.png",
+      "id": "2"
+    },
+    {
+      "name": "Avatar De Anime Kawaii De 45 Cm",
+      "preco": "93",
+      "image": "https://i.ibb.co/hf03wpR/Avatar-De-Anime-01.png",
+      "id": "3"
+    },
+    {
+      "name": "Copo ECO Bucks ",
+      "preco": "25",
+      "image": "https://i.ibb.co/Xy3ZrRy/Copo-ECO-01.png",
+      "id": "4"
+    },
+    {
+      "name": "Avatar: A Lenda De Aang - Katara",
+      "preco": "400",
+      "image": "https://i.ibb.co/dDtHxn4/Katara-01.png",
+      "id": "5"
+    },
+    {
+      "name": "Mochila Avatar A Lenda De Aang",
+      "preco": "75",
+      "image": "https://i.ibb.co/j87JqFC/Mochila-Avatar-01.png",
+      "id": "6"
+    },
+    {
+      "name": "Cosplay Katara - Avatar The Last Airbender",
+      "preco": "75",
+      "image": "https://i.ibb.co/fF0BzwM/Cosplay-Katara-01.png",
+      "id": "7"
+    },
+    {
+      "name": "The Last Airbender Mochila Momo",
+      "preco": "19",
+      "image": "https://i.ibb.co/W68QSHd/The-Last-Airbender-Mochila-01.png",
+      "id": "8"
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alura Geek</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Press+Start+2P&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/reset.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="header__centro">
+        <img src="./imagens/logo.png" alt="logo">
+        <h2>AluraGeek</h2>
+    </div>
+       <div class="header__direita">
+        <div class="avatar">
+            <h1>
+                <a href="https://www.linkedin.com/in/ricardo-vieira-da-silva-7a972922a" target="_blank">
+                <img src="./imagens/avatar.jpg" />
+            </a>
+            </h1>
+                       
+      </div>
+    </div>
+    </header>
+
+<main class="main-container">
+   <section class="section_produto">
+    <h1>Meus produtos:</h1>   
+  <div data-produtos class="produto__container">
+   </div>
+     
+   </div>
+
+</section>
+
+<section class="section__formulario">
+    <h1>Adicionar produtos:</h1>
+     <form class="formulario__container" data-formulario>
+        <input data-name placeholder="Nome"  type="text">
+        <input data-preco placeholder="Preço"  type="text">
+        <input data-imagem placeholder="Imagem"  type="text">
+
+        <div class="button__formulario">
+            <button type="submit" class="button__submit" id="button">Enviar</button>
+            <button type="reset" class="button__reset" id="button">Limpar</Limpar>
+        </div>
+     </form>
+
+</section>
+
+</main>
+
+    <footer class="footer-container">
+        <div class="footer_logo">
+          <img src="./imagens/logo.png" alt="logo" class="logo__alura">
+          <h2>AluraGeek</h2>
+        </div>
+        
+        <div class="footer_dev">
+          <h1>Desenvolvido por Ricardo Vieira
+        </a>  
+        <a href="https://www.linkedin.com/in/ricardo-vieira-da-silva-7a972922a" target="_blank">
+        <img src="./imagens/linkedin.png" alt="logo do linkedin" class="logo__linkedin" > 
+        </a>
+          </h1>
+           <h1>Alura Latam- 2024</h1>
+       </div>
+    </footer>
+    <script type="module" src="./js/controle/main.js"></script>
+</body>
+</html>

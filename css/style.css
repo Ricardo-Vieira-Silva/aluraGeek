@@ -1,0 +1,249 @@
+html body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffe600;
+    padding: 20px;
+    
+}
+
+.header__left {
+    display: flex;
+    align-items: center;
+
+}
+
+.header__centro {
+    display: flex;
+    align-items: center;
+    margin-left: 860px;
+}
+
+.header img{
+    width: 138px;
+    height: 56px;
+}
+
+
+
+.header h2{
+    font-size: 24px;
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.avatar{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+}
+
+.avatar img{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.main-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+
+.main-container {
+    border-top: 20px;
+}
+
+.section_produto {
+   flex: 1;
+   padding: 20px;
+   max-width: 50%;
+}
+
+.section_produto h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.produto__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.produto__card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: calc(50% - 20px);
+    max-width: calc(50% - 20px);
+    border: 1px solid #ccc;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.produto__card__img img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.produto__card__infor {
+    text-align: center;
+}
+
+.button__delete {
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+}
+
+.button__delete img {
+    width: 40px;
+    height: auto;
+    margin-top: 10px;
+}
+
+.button__submit,
+.button__reset {
+    cursor: pointer;
+}
+
+    /* FORMULÁRIO */
+
+.formulario__container {
+    display: flex;
+    flex-direction: column;
+    width: 492px;
+    height: 65px;
+    margin-right: 50px;
+}
+
+.formulario__container input,
+.formulario__container .button__formulario {
+    margin-bottom: 30px;
+    border-radius: 20px;
+    border-width: 2px;
+    padding: 15px;
+    width: 100%;
+    border-color: #03318C;
+    color: #03318C;
+    justify-content: space-between;
+    display: flex;
+}
+
+.button__formulario button {
+    margin-bottom: 30px;
+    border-radius: 20px;
+    border-width: 3px;
+    padding: 10px;
+    width: 190px;
+    background-color: #d5e0f7;
+    color: #03318C;
+    border-color: transparent;
+    font-size: 20px;
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 800;
+}
+
+   /*RODAPÉ*/
+
+.footer-container {
+    display: flex;
+    background-color: #ffe600;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px 0;
+    margin-top: auto;
+    
+}
+
+.footer_logo h2 {
+    align-self: center; 
+}
+
+.logo__alura{
+    width: 138px;
+    height: 56px;
+}
+
+.footer-container h2{
+    font-size: 24px;
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.footer_logo {
+    display: flex;
+    justify-content: center;
+}
+
+.footer_dev {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+.footer_dev h1 {
+   margin: 5px 0;
+   font-family: "IBM Plex Mono", monospace;
+   font-weight: 300;
+   font-style: normal;
+   text-transform: uppercase;
+}
+
+.logo__linkedin {
+    width: 42px;
+    height: 38px;
+}
+
+@media only screen and (max-width: 768px) {
+     .main-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .section_produto {
+        margin-bottom: 20px;
+    }
+
+    .footer-container {
+        position: fixed; 
+        bottom: 0; 
+        width: 100%; 
+        background-color: #ffe600;
+        padding: 10px 0;
+    }
+}
